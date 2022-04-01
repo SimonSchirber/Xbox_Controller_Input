@@ -31,7 +31,7 @@ keepflying = True
 while keepflying:
     for event in pygame.event.get():
         if event.type ==JOYBUTTONDOWN:
-            #Buttons
+            #Generic Buttons
             if (event.button == 0):
                 print('a pressed')
             if (event.button == 1):
@@ -52,6 +52,7 @@ while keepflying:
                 print('left middle pressed')
             if (event.button == 7):
                 print('right middle pressed')
+        #Released Button
         if event.type ==JOYBUTTONUP:
             print('released')
 
@@ -131,7 +132,7 @@ while keepflying:
             if (event.value == (0,-1)):
                 print('down dpad')
             
-        #exitx button on py display
+        #exit button on py display
         if event.type == QUIT:
             pygame.quit() 
 
