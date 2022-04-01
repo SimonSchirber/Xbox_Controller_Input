@@ -1,10 +1,10 @@
 # Xbox_Controller_Input
 This is meant to be able to check all inputs of the Xbox series X and Xbox series S controller using python and pygame. It can be used to control various systems as desired.
 
-How to use: /n
+How to use: \n
 Connect your xbox controller via bluetooth and run the xbox_ctrl_general.py script. As you press each button there should be the correct button and joystick movents accordingly. Make sure you click you mouse in the pygame box for it to detect the controller.
 
-Installations: /n
+Installations: \n
 pip install pygame
 
 
